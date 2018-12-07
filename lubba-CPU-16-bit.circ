@@ -253,8 +253,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(320,260)" to="(320,380)"/>
     <wire from="(970,40)" to="(970,90)"/>
     <wire from="(330,230)" to="(330,350)"/>
-    <comp lib="10" loc="(390,480)" name="control unit"/>
-    <comp lib="7" loc="(650,280)" name="register file"/>
+    <comp lib="10" loc="(390,480)" name="main"/>
+    <comp lib="7" loc="(650,280)" name="main"/>
     <comp lib="3" loc="(860,110)" name="Adder">
       <a name="width" val="16"/>
     </comp>
@@ -263,7 +263,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="Cin"/>
     </comp>
-    <comp lib="9" loc="(880,520)" name="ALU control"/>
+    <comp lib="9" loc="(880,520)" name="main"/>
     <comp lib="0" loc="(290,270)" name="Splitter">
       <a name="fanout" val="5"/>
       <a name="incoming" val="16"/>
